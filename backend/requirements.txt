@@ -1,0 +1,12 @@
+# BriefCast — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core pipeline
+feedparser==6.0.11
+anthropic==0.49.0
+requests==2.32.3
+python-dotenv==1.1.0
+schedule==1.2.2
+
+# Audio generation (optional — only needed if using ElevenLabs TTS)
+elevenlabs==1.58.1
